@@ -11,18 +11,33 @@
 @implementation StarTrekDictionaries
 
 - (NSString *)favoriteDrinkForStarTrekCharacterDictionary:(NSDictionary *)characterDictionary {
-    /* WORK HERE */
-    return @"";
+    
+    return characterDictionary[@"favorite drink"];;
 }
 
 - (NSArray *)arrayOfFavoriteDrinksForStarTrekCharacters:(NSArray *)charactersArray {
-    /* WORK HERE */
-    return @[];
+    
+    NSMutableArray *drinksArray = [[NSMutableArray alloc] init];
+    
+    /* Strictly speaking, the order of enumeration is unpredictable, so this might not work */
+    
+    for (NSDictionary *characterDictionary in charactersArray) {
+        [drinksArray addObject:characterDictionary[@"favorite drink"]];
+    }
+    
+    /* To be pedantic, convert the NSMutableArray to NSArray using copy method, since the method signature specifies NSArray.
+       Probably ok to just return drinksArray, as NSMutableArray inherits from NSArray anyway. */
+    
+    return [drinksArray copy];
 }
 
 - (NSDictionary *)dictionaryWithQuoteAddedToStarTrekCharacterDictionary:(NSDictionary *)characterDictionary {
-    /* WORK HERE */
-    return @{};
+    
+    NSMutableDictionary *newDictionary = [NSMutableDictionary dictionaryWithDictionary:characterDictionary];
+    
+    [newDictionary setObject:@"To be, or not to be" forKey:@"quote"];
+    
+    return [newDictionary copy];
 }
 
 @end
