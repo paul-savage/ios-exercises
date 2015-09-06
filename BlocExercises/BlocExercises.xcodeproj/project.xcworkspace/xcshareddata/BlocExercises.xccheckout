@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
-		<string>https://github.com/Bloc/ios-exercises.git</string>
+		<string>github.com:paul-savage/ios-exercises.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BlocExercises/BlocExercises.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Bloc/ios-exercises.git</string>
+	<string>github.com:paul-savage/ios-exercises.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
