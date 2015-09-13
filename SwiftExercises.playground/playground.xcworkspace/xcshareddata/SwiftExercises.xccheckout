@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>49A2D3B1-3957-4E90-9D22-5D384606E8DE</string>
+	<string>D4756FBF-24F2-48BE-94E1-A0C1A008E9E9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SwiftExercises</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
 		<string>github.com:paul-savage/ios-exercises.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BlocExercises/BlocExercises.xcodeproj/project.xcworkspace</string>
+	<string>SwiftExercises.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
-		<string>../../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:paul-savage/ios-exercises.git</string>
